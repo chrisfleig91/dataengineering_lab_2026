@@ -1,0 +1,30 @@
+services:
+  # Die PostgreSQL Datenbank
+  db:
+    image: postgres:16-alpine
+    container_name: workshop_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: secretpassword
+      POSTGRES_DB: workshop_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data_local:/var/lib/postgresql/data
+      # Mapping: Lokaler Ordner 'data' wird in den Container gemappt
+      # Nützlich, um CSVs in den Container zu laden
+      - ./import_data:/import_data
+
+  # Adminer als schlanke GUI
+  adminer:
+    image: adminer
+    container_name: workshop_adminer
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+volumes:
+  pg_data_local:

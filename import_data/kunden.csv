@@ -1,0 +1,9 @@
+kunden_id,name,email,registrierungs_datum,status
+1,Max Mustermann,max@example.com,2025-01-15,aktiv
+2,Erika Musterfrau,erika@test.de,2025-02-20,aktiv
+3,John Doe,john.doe@provider.net,2025-03-05,inaktiv
+4,Jane Smith,jane.smith@web.de,invalid_date,aktiv
+5,Peter Pan,,2025-05-12,aktiv
+6,Max Mustermann,max@example.com,2025-01-15,aktiv
+7,Sarah Connor,sarah@tech.de,2025-06-01,neu
+8,Null-User,null@test.de,2025-06-02,aktiv

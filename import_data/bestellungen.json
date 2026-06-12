@@ -1,0 +1,9 @@
+[
+  {"bestell_id": 101, "kunden_id": 1, "betrag": 150.50, "waehrung": "EUR", "items": ["Laptop", "Maus"], "versand": "DHL"},
+  {"bestell_id": 102, "kunden_id": 2, "betrag": 45.00, "waehrung": "EUR", "items": ["Tastatur"], "versand": "UPS"},
+  {"bestell_id": 103, "kunden_id": 1, "betrag": 12.99, "waehrung": "EUR", "items": ["USB-Kabel"], "versand": "DHL"},
+  {"bestell_id": 104, "kunden_id": 3, "betrag": 300.00, "waehrung": "USD", "items": ["Monitor", "HDMI-Kabel"], "versand": "FedEx"},
+  {"bestell_id": 105, "kunden_id": 4, "betrag": null, "waehrung": "EUR", "items": ["Test-Artikel"], "versand": "DHL"},
+  {"bestell_id": 106, "kunden_id": 7, "betrag": 89.99, "waehrung": "EUR", "items": ["Webcam"], "versand": "UPS"},
+  {"bestell_id": 107, "kunden_id": 6, "betrag": 55.00, "waehrung": "EUR", "items": ["Headset"], "versand": "DHL"}
+]
