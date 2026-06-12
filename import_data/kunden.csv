@@ -6,5 +6,6 @@ kunden_id,name,email,registrierungs_datum,status
 5,Peter Pan,,2025-05-12,aktiv
 6,Max Mustermann,max@example.com,2025-01-15,aktiv
 7,Sarah Connor,sarah@tech.de,2025-06-01,neu
-8,Zacharias Gusto,null@test.de,2025-06-02,aktiv
+8,Zacharias Gusto,zachgus@test.de,2025-06-02,aktiv
+9,Cristo Feig,feig@cristo.de,2025-06-02,aktiv
 51,Christoph Fleig,cf.bg@cfbg.de,2026-02-02,neu
