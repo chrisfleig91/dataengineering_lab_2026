@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np
 import hashlib
 from sqlalchemy import create_engine
-
+import datetime
+import time
 # Funktion um den Zeilen Hash zu erstellen
 
 
@@ -46,31 +47,19 @@ if 'status' in df_csv.columns:
     df_csv = df_csv.rename(
         columns={'status': 'kunden_status'})
 
+df_csv['_modtime'] = datetime.datetime.fromtimestamp(
+    time.time()).strftime('%Y-%m-%d %H:%M:%S')
+
 try:
     # Datenbankverbindung öffnen und Daten laden
-    db_connect = create_engine(DB_URL)
-    df_sql = pd.read_sql(
-        "SELECT * FROM kunde", db_connect)
-
-    df_sql['registrierungsdatum'] = pd.to_datetime(
-        df_sql['registrierungsdatum'], errors='coerce')
-
-    # Abgleich der CSV Daten mit SQL Daten
-    existing_ids = df_sql['kunden_id'].tolist()
-    df_csv_neu = df_csv[~df_csv['kunden_id'].isin(existing_ids)]
-    df_csv_exist = df_csv[df_csv['kunden_id'].isin(existing_ids)]
-
-    df_csv_exist['hash'] = df_csv_exist.apply(generate_row_hash, axis=1)
-    df_sql['hash'] = df_sql.apply(generate_row_hash, axis=1)
-
-    existing_hashes = df_sql['hash'].tolist()
-    # Todo: Update der geänderten Kunden implementieren
-    df_csv_changed = df_csv_exist[~df_csv_exist['hash'].isin(existing_hashes)]
+    db_connect = create_engine(DB_URL, connect_args={
+                               "options": "-csearch_path=staging"})
 
     # Importieren der neuen Kunden
-    df_csv_neu.to_sql('kunde', db_connect, if_exists='append', index=False)
+    df_csv.to_sql('kunde_staging', db_connect,
+                  if_exists='replace', index=False)
     print(
-        f"Erfolgreich {len(df_csv_neu)} Zeilen in die Tabelle 'kunde' importiert.")
+        f"Erfolgreich {len(df_csv)} Zeilen in die Tabelle 'kunde' importiert.")
 
 except Exception as e:
     print(f"Fehler beim Import der Daten: {e}")

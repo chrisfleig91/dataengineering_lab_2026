@@ -9,4 +9,4 @@ data = {
 }
 
 df = pd.DataFrame(data)
-df.to_parquet('data/adressen.parquet')
+df.to_parquet('../import_data/adressen.parquet')
