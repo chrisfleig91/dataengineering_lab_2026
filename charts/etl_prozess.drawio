@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Seite-1" id="1rANy49HJc792afCtgsf">
+    <mxGraphModel dx="1414" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_tgvAxzqUW32iCXPWahA-3" edge="1" parent="1" source="_tgvAxzqUW32iCXPWahA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_tgvAxzqUW32iCXPWahA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="JSON Datei" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-4" edge="1" parent="1" source="_tgvAxzqUW32iCXPWahA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_tgvAxzqUW32iCXPWahA-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Laden von JSON Datei" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-7" edge="1" parent="1" source="_tgvAxzqUW32iCXPWahA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_tgvAxzqUW32iCXPWahA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Erstellen eines DataFrames" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-9" edge="1" parent="1" source="_tgvAxzqUW32iCXPWahA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_tgvAxzqUW32iCXPWahA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Transformation der Daten" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-11" edge="1" parent="1" source="_tgvAxzqUW32iCXPWahA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_tgvAxzqUW32iCXPWahA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Schreiben der Daten in Staging Bereich der Datenbank" vertex="1">
+          <mxGeometry height="60" width="120" x="860" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-15" edge="1" parent="1" source="_tgvAxzqUW32iCXPWahA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="_tgvAxzqUW32iCXPWahA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Insert und Update Skripte die Daten aus Staging in die Business Area schreiben" vertex="1">
+          <mxGeometry height="96" width="120" x="860" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Bericht für Vertrieb" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-16" edge="1" parent="1" source="_tgvAxzqUW32iCXPWahA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_tgvAxzqUW32iCXPWahA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tgvAxzqUW32iCXPWahA-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Erstellen einer View mit Umsatzzahlen" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="432" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
