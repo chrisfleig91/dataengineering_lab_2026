@@ -1,9 +1,1674 @@
 [
-  {"bestell_id": 101, "kunden_id": 1, "betrag": 150.50, "waehrung": "EUR", "items": ["Laptop", "Maus"], "versand": "DHL"},
-  {"bestell_id": 102, "kunden_id": 2, "betrag": 45.00, "waehrung": "EUR", "items": ["Tastatur"], "versand": "UPS"},
-  {"bestell_id": 103, "kunden_id": 1, "betrag": 12.99, "waehrung": "EUR", "items": ["USB-Kabel"], "versand": "DHL"},
-  {"bestell_id": 104, "kunden_id": 3, "betrag": 300.00, "waehrung": "USD", "items": ["Monitor", "HDMI-Kabel"], "versand": "FedEx"},
-  {"bestell_id": 105, "kunden_id": 4, "betrag": null, "waehrung": "EUR", "items": ["Test-Artikel"], "versand": "DHL"},
-  {"bestell_id": 106, "kunden_id": 7, "betrag": 89.99, "waehrung": "EUR", "items": ["Webcam"], "versand": "UPS"},
-  {"bestell_id": 107, "kunden_id": 6, "betrag": 55.00, "waehrung": "EUR", "items": ["Headset"], "versand": "DHL"}
+    {
+        "bestell_id": 1000,
+        "kundenadress_id": 97506,
+        "bestelldatum": "2026-05-19",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1001,
+        "kundenadress_id": 64088,
+        "bestelldatum": "2025-07-25",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1002,
+        "kundenadress_id": 63871,
+        "bestelldatum": "2025-08-21",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1003,
+        "kundenadress_id": 54198,
+        "bestelldatum": "2025-06-22",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1004,
+        "kundenadress_id": 49327,
+        "bestelldatum": "2026-02-07",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1005,
+        "kundenadress_id": 53010,
+        "bestelldatum": "2025-09-22",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1006,
+        "kundenadress_id": 36847,
+        "bestelldatum": "2025-08-22",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1007,
+        "kundenadress_id": 59635,
+        "bestelldatum": "2026-04-15",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1008,
+        "kundenadress_id": 83607,
+        "bestelldatum": "2025-06-20",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1009,
+        "kundenadress_id": 35099,
+        "bestelldatum": "2026-03-08",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1010,
+        "kundenadress_id": 82158,
+        "bestelldatum": "2025-12-29",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1011,
+        "kundenadress_id": 8602,
+        "bestelldatum": "2026-03-20",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1012,
+        "kundenadress_id": 67914,
+        "bestelldatum": "2025-06-24",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1013,
+        "kundenadress_id": 53526,
+        "bestelldatum": "2026-02-06",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1014,
+        "kundenadress_id": 71794,
+        "bestelldatum": "2026-03-09",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1015,
+        "kundenadress_id": 68986,
+        "bestelldatum": "2025-08-02",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1016,
+        "kundenadress_id": 76762,
+        "bestelldatum": "2026-04-02",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1017,
+        "kundenadress_id": 37096,
+        "bestelldatum": "2025-09-27",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1018,
+        "kundenadress_id": 65237,
+        "bestelldatum": "2026-02-22",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1019,
+        "kundenadress_id": 97035,
+        "bestelldatum": "2025-07-07",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1020,
+        "kundenadress_id": 75972,
+        "bestelldatum": "2025-10-05",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1021,
+        "kundenadress_id": 42717,
+        "bestelldatum": "2026-05-22",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1022,
+        "kundenadress_id": 72953,
+        "bestelldatum": "2025-10-31",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1023,
+        "kundenadress_id": 71869,
+        "bestelldatum": "2025-08-09",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1024,
+        "kundenadress_id": 73407,
+        "bestelldatum": "2026-01-08",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1025,
+        "kundenadress_id": 90360,
+        "bestelldatum": "2026-05-28",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1026,
+        "kundenadress_id": 35704,
+        "bestelldatum": "2025-06-12",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1027,
+        "kundenadress_id": 95075,
+        "bestelldatum": "2026-01-31",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1028,
+        "kundenadress_id": 19210,
+        "bestelldatum": "2026-03-23",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1029,
+        "kundenadress_id": 39986,
+        "bestelldatum": "2026-02-15",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1030,
+        "kundenadress_id": 71216,
+        "bestelldatum": "2025-06-26",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1031,
+        "kundenadress_id": 73314,
+        "bestelldatum": "2026-05-07",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1032,
+        "kundenadress_id": 66684,
+        "bestelldatum": "2026-04-30",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1033,
+        "kundenadress_id": 18255,
+        "bestelldatum": "2026-03-06",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1034,
+        "kundenadress_id": 56513,
+        "bestelldatum": "2025-06-23",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1035,
+        "kundenadress_id": 25551,
+        "bestelldatum": "2025-10-08",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1036,
+        "kundenadress_id": 9131,
+        "bestelldatum": "2026-03-07",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1037,
+        "kundenadress_id": 51632,
+        "bestelldatum": "2025-10-17",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1038,
+        "kundenadress_id": 79864,
+        "bestelldatum": "2026-03-16",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1039,
+        "kundenadress_id": 68358,
+        "bestelldatum": "2025-08-14",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1040,
+        "kundenadress_id": 97770,
+        "bestelldatum": "2026-02-06",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1041,
+        "kundenadress_id": 79663,
+        "bestelldatum": "2025-12-22",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1042,
+        "kundenadress_id": 43186,
+        "bestelldatum": "2026-03-02",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1043,
+        "kundenadress_id": 78901,
+        "bestelldatum": "2026-03-21",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1044,
+        "kundenadress_id": 72660,
+        "bestelldatum": "2025-10-09",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1045,
+        "kundenadress_id": 91361,
+        "bestelldatum": "2026-03-09",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1046,
+        "kundenadress_id": 84311,
+        "bestelldatum": "2026-01-31",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1047,
+        "kundenadress_id": 406,
+        "bestelldatum": "2026-04-01",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1048,
+        "kundenadress_id": 36395,
+        "bestelldatum": "2025-12-21",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1049,
+        "kundenadress_id": 30935,
+        "bestelldatum": "2026-04-01",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1050,
+        "kundenadress_id": 97127,
+        "bestelldatum": "2025-12-23",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1051,
+        "kundenadress_id": 78519,
+        "bestelldatum": "2025-07-17",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1052,
+        "kundenadress_id": 59750,
+        "bestelldatum": "2026-04-23",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1053,
+        "kundenadress_id": 94477,
+        "bestelldatum": "2026-01-01",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1054,
+        "kundenadress_id": 92500,
+        "bestelldatum": "2025-09-09",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1055,
+        "kundenadress_id": 29775,
+        "bestelldatum": "2025-12-08",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1056,
+        "kundenadress_id": 45190,
+        "bestelldatum": "2025-08-21",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1057,
+        "kundenadress_id": 45683,
+        "bestelldatum": "2025-08-06",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1058,
+        "kundenadress_id": 54386,
+        "bestelldatum": "2025-11-21",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1059,
+        "kundenadress_id": 64093,
+        "bestelldatum": "2026-02-21",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1060,
+        "kundenadress_id": 32139,
+        "bestelldatum": "2025-12-06",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1061,
+        "kundenadress_id": 59745,
+        "bestelldatum": "2025-11-15",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1062,
+        "kundenadress_id": 60160,
+        "bestelldatum": "2025-11-10",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1063,
+        "kundenadress_id": 18738,
+        "bestelldatum": "2026-01-28",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1064,
+        "kundenadress_id": 11711,
+        "bestelldatum": "2025-12-02",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1065,
+        "kundenadress_id": 75685,
+        "bestelldatum": "2025-12-02",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1066,
+        "kundenadress_id": 95543,
+        "bestelldatum": "2025-07-23",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1067,
+        "kundenadress_id": 16031,
+        "bestelldatum": "2026-02-10",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1068,
+        "kundenadress_id": 40692,
+        "bestelldatum": "2025-11-28",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1069,
+        "kundenadress_id": 91235,
+        "bestelldatum": "2025-11-29",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1070,
+        "kundenadress_id": 93446,
+        "bestelldatum": "2025-10-13",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1071,
+        "kundenadress_id": 21467,
+        "bestelldatum": "2025-11-07",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1072,
+        "kundenadress_id": 92394,
+        "bestelldatum": "2025-07-26",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1073,
+        "kundenadress_id": 14687,
+        "bestelldatum": "2025-08-10",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1074,
+        "kundenadress_id": 35478,
+        "bestelldatum": "2026-03-26",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1075,
+        "kundenadress_id": 55023,
+        "bestelldatum": "2026-01-05",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1076,
+        "kundenadress_id": 85444,
+        "bestelldatum": "2026-05-23",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1077,
+        "kundenadress_id": 24213,
+        "bestelldatum": "2025-10-07",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1078,
+        "kundenadress_id": 84602,
+        "bestelldatum": "2026-01-03",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1079,
+        "kundenadress_id": 9452,
+        "bestelldatum": "2025-07-14",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1080,
+        "kundenadress_id": 68066,
+        "bestelldatum": "2025-08-16",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1081,
+        "kundenadress_id": 84697,
+        "bestelldatum": "2026-04-30",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1082,
+        "kundenadress_id": 12500,
+        "bestelldatum": "2025-10-03",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1083,
+        "kundenadress_id": 34551,
+        "bestelldatum": "2026-04-20",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1084,
+        "kundenadress_id": 72897,
+        "bestelldatum": "2025-12-27",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1085,
+        "kundenadress_id": 79814,
+        "bestelldatum": "2025-12-31",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1086,
+        "kundenadress_id": 5623,
+        "bestelldatum": "2025-10-06",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1087,
+        "kundenadress_id": 84252,
+        "bestelldatum": "2025-07-28",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1088,
+        "kundenadress_id": 6664,
+        "bestelldatum": "2025-08-15",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1089,
+        "kundenadress_id": 39749,
+        "bestelldatum": "2026-02-27",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1090,
+        "kundenadress_id": 48409,
+        "bestelldatum": "2026-01-25",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1091,
+        "kundenadress_id": 62089,
+        "bestelldatum": "2025-07-30",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1092,
+        "kundenadress_id": 86332,
+        "bestelldatum": "2025-09-10",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1093,
+        "kundenadress_id": 29518,
+        "bestelldatum": "2026-02-25",
+        "positionen": [
+            {
+                "produkt": "Maus",
+                "preis": 25.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1094,
+        "kundenadress_id": 75598,
+        "bestelldatum": "2025-12-26",
+        "positionen": [
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1095,
+        "kundenadress_id": 60364,
+        "bestelldatum": "2025-12-15",
+        "positionen": [
+            {
+                "produkt": "Webcam",
+                "preis": 80.0
+            },
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1096,
+        "kundenadress_id": 6021,
+        "bestelldatum": "2026-06-12",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1097,
+        "kundenadress_id": 96934,
+        "bestelldatum": "2025-11-30",
+        "positionen": [
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1098,
+        "kundenadress_id": 20252,
+        "bestelldatum": "2026-03-08",
+        "positionen": [
+            {
+                "produkt": "Tastatur",
+                "preis": 50.0
+            },
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            },
+            {
+                "produkt": "Monitor",
+                "preis": 200.0
+            },
+            {
+                "produkt": "Laptop",
+                "preis": 999.0
+            }
+        ]
+    },
+    {
+        "bestell_id": 1099,
+        "kundenadress_id": 97511,
+        "bestelldatum": "2025-10-17",
+        "positionen": [
+            {
+                "produkt": "Headset",
+                "preis": 120.0
+            }
+        ]
+    }
 ]
