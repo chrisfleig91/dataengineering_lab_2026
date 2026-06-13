@@ -3,7 +3,7 @@ kunden_id,name,email,registrierungs_datum,status
 2,Erika Musterfrau,erika@test.de,2025-02-20,aktiv
 3,John Doe,john.doe@provider.net,2025-03-05,inaktiv
 4,Jane Smith,jane.smith@web.de,invalid_date,aktiv
-5,Peter Pan,abc@abc.de,2025-05-12,aktiv
+5,Peter Pan,pp@neverland.de,2025-05-12,aktiv
 6,Max Mustermann,max@example.com,2025-01-15,aktiv
 7,Sarah Connor,sarah@tech.de,2025-06-01,neu
 8,Zacharias Gusto,zachgus@test.de,2025-06-02,aktiv
@@ -12,3 +12,4 @@ kunden_id,name,email,registrierungs_datum,status
 52,Christoph Fleig,cfbg@cfbg.de,2026-02-02,neu
 53,Thomas Müller,tm@25tm.de,2025-12-12,neu
 54,Manuel Neuer,mn1@mn1.de,2026-01-01,aktiv
+55,Mario Gomez,mg33@mg33.de,2026-01-02,neu
